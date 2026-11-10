@@ -1,0 +1,17 @@
+{
+  "name": "video-merger",
+  "version": "1.0.0",
+  "private": true,
+  "description": "موقع دمج الفيديوهات مع API عام — Node.js خالص جاهز للنشر على Vercel",
+  "scripts": {
+    "dev": "node dev-server.js",
+    "test:unit": "node scripts/test-unit.js",
+    "test:http": "node scripts/test-http.js",
+    "test": "node scripts/test-unit.js && node scripts/test-http.js"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.18.0",
+    "ffmpeg-static": "^5.2.0",
+    "ffprobe-static": "^3.1.0"
+  }
+}
